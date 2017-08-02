@@ -1,0 +1,8 @@
+# m32
+
+My personal collection of float32 matrix helpers in Go.
+
+Some of this is likely incorrect.
+
+[docs on godoc.org](https://godoc.org/github.com/ruffrey/m32)
+
