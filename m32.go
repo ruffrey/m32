@@ -93,9 +93,11 @@ func (m *M) PlusEquals(m2 *M) {
 T transposes the matrix:
 returns a copied matrix that is the transposed version of the original.
 
-[1, 2          [1, 4, 7,
- 4, 5  becomes  2, 5, 8]
- 7, 8]
+
+	[1, 2          [1, 4, 7,
+	 4, 5  becomes  2, 5, 8]
+	 7, 8]
+
 */
 func (m *M) T() (out *M) {
 	out = &M{
